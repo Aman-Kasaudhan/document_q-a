@@ -1,7 +1,3 @@
--- Reference / audit queries. Run with: sqlite3 data/docqa.db < sql/queries.sql
--- (The tests execute every statement in this file to keep it valid.)
-
--- 1. Documents with chunk counts
 SELECT d.filename, COUNT(c.chunk_id) AS chunks, d.char_count, d.ingested_at
 FROM documents d LEFT JOIN chunks c ON c.doc_id = d.doc_id
 GROUP BY d.doc_id ORDER BY d.filename;
