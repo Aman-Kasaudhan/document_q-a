@@ -1,0 +1,18 @@
+ID   RESULT STATUS                 SCORE  QUESTION
+A1   PASS   answered               1.00   How many days of paid annual leave do full-time employees get?
+A2   PASS   answered               1.00   How many unused leave days can be carried over?
+A3   PASS   answered               1.00   How long must passwords be?
+A4   PASS   answered               1.00   How much are hotel stays reimbursed per night?
+A5   PASS   answered               0.83   How many days per week can remote employees work from home?
+A6   PASS   answered               1.00   How much does the Pro plan cost per month?
+A7   PASS   answered               0.67   How is data encrypted in transit?
+A8   PASS   answered               1.00   Within how many hours must lost devices be reported?
+A9   PASS   answered               0.80   How long can deleted files be restored from the trash?
+A10  PASS   answered               1.00   When must expense claims be submitted?
+U1   PASS   insufficient_evidence  0.00   What is the CEO's salary?
+U2   PASS   insufficient_evidence  0.25   What is the dress code for client meetings?
+U3   PASS   insufficient_evidence  0.33   Which programming language is the Nimbus Sync client written in?
+U4   PASS   insufficient_evidence  0.33   Where is the company headquarters located?
+U5   PASS   insufficient_evidence  0.75   How much does the Enterprise plan cost per month?
+
+Accuracy: 15/15 = 100%  (MIN_SCORE=0.6)

@@ -1,0 +1,56 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-9.1.1, pluggy-1.6.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /mnt/user-data/outputs/doc-qa-evidence
+configfile: pytest.ini
+testpaths: tests
+collecting ... collected 46 items
+
+tests/test_chunking.py::test_offsets_point_back_into_the_text PASSED     [  2%]
+tests/test_chunking.py::test_chunks_cover_the_whole_document_in_order PASSED [  4%]
+tests/test_chunking.py::test_long_paragraph_is_split_to_respect_size PASSED [  6%]
+tests/test_chunking.py::test_overlap_repeats_text_between_neighbours PASSED [  8%]
+tests/test_chunking.py::test_empty_text_gives_no_chunks PASSED           [ 10%]
+tests/test_chunking.py::test_invalid_parameters_are_rejected[0-0] PASSED [ 13%]
+tests/test_chunking.py::test_invalid_parameters_are_rejected[100-100] PASSED [ 15%]
+tests/test_chunking.py::test_invalid_parameters_are_rejected[100--1] PASSED [ 17%]
+tests/test_ingest.py::test_ingestion_is_idempotent PASSED                [ 19%]
+tests/test_ingest.py::test_invalid_files_are_rejected_and_logged PASSED  [ 21%]
+tests/test_ingest.py::test_changed_file_replaces_old_chunks PASSED       [ 23%]
+tests/test_ingest.py::test_duplicate_content_under_another_name_is_rejected PASSED [ 26%]
+tests/test_ingest.py::test_missing_directory_raises_clear_error PASSED   [ 28%]
+tests/test_qa.py::test_eval_questions[A1] PASSED                         [ 30%]
+tests/test_qa.py::test_eval_questions[A2] PASSED                         [ 32%]
+tests/test_qa.py::test_eval_questions[A3] PASSED                         [ 34%]
+tests/test_qa.py::test_eval_questions[A4] PASSED                         [ 36%]
+tests/test_qa.py::test_eval_questions[A5] PASSED                         [ 39%]
+tests/test_qa.py::test_eval_questions[A6] PASSED                         [ 41%]
+tests/test_qa.py::test_eval_questions[A7] PASSED                         [ 43%]
+tests/test_qa.py::test_eval_questions[A8] PASSED                         [ 45%]
+tests/test_qa.py::test_eval_questions[A9] PASSED                         [ 47%]
+tests/test_qa.py::test_eval_questions[A10] PASSED                        [ 50%]
+tests/test_qa.py::test_eval_questions[U1] PASSED                         [ 52%]
+tests/test_qa.py::test_eval_questions[U2] PASSED                         [ 54%]
+tests/test_qa.py::test_eval_questions[U3] PASSED                         [ 56%]
+tests/test_qa.py::test_eval_questions[U4] PASSED                         [ 58%]
+tests/test_qa.py::test_eval_questions[U5] PASSED                         [ 60%]
+tests/test_qa.py::test_near_miss_entity_is_refused PASSED                [ 63%]
+tests/test_qa.py::test_empty_question_is_insufficient PASSED             [ 65%]
+tests/test_qa.py::test_question_with_only_stopwords_is_insufficient PASSED [ 67%]
+tests/test_qa.py::test_empty_database_never_invents_an_answer PASSED     [ 69%]
+tests/test_qa.py::test_queries_are_audited PASSED                        [ 71%]
+tests/test_qa.py::test_provider_failure_falls_back_to_extractive PASSED  [ 73%]
+tests/test_qa.py::test_model_refusal_is_respected PASSED                 [ 76%]
+tests/test_qa.py::test_ollama_valid_answer_with_citation PASSED          [ 78%]
+tests/test_qa.py::test_ollama_bad_responses_raise_provider_error[response0] PASSED [ 80%]
+tests/test_qa.py::test_ollama_bad_responses_raise_provider_error[response1] PASSED [ 82%]
+tests/test_qa.py::test_ollama_bad_responses_raise_provider_error[response2] PASSED [ 84%]
+tests/test_qa.py::test_ollama_bad_responses_raise_provider_error[response3] PASSED [ 86%]
+tests/test_qa.py::test_ollama_bad_responses_raise_provider_error[response4] PASSED [ 89%]
+tests/test_qa.py::test_ollama_bad_responses_raise_provider_error[response5] PASSED [ 91%]
+tests/test_qa.py::test_ollama_timeout_raises_provider_error PASSED       [ 93%]
+tests/test_qa.py::test_ollama_refusal_token_means_insufficient PASSED    [ 95%]
+tests/test_qa.py::test_service_survives_broken_ollama_end_to_end PASSED  [ 97%]
+tests/test_qa.py::test_reference_sql_file_is_valid PASSED                [100%]
+
+============================== 46 passed in 1.30s ==============================

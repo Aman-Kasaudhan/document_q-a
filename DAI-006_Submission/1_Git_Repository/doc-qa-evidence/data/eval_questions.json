@@ -1,0 +1,17 @@
+[
+  {"id": "A1", "question": "How many days of paid annual leave do full-time employees get?", "answerable": true, "expected_source": "leave_policy.md", "expected_contains": "24"},
+  {"id": "A2", "question": "How many unused leave days can be carried over?", "answerable": true, "expected_source": "leave_policy.md", "expected_contains": "5"},
+  {"id": "A3", "question": "How long must passwords be?", "answerable": true, "expected_source": "it_security_policy.md", "expected_contains": "14 characters"},
+  {"id": "A4", "question": "How much are hotel stays reimbursed per night?", "answerable": true, "expected_source": "expense_policy.md", "expected_contains": "150 USD"},
+  {"id": "A5", "question": "How many days per week can remote employees work from home?", "answerable": true, "expected_source": "remote_work_policy.md", "expected_contains": "3 days"},
+  {"id": "A6", "question": "How much does the Pro plan cost per month?", "answerable": true, "expected_source": "product_faq.md", "expected_contains": "9 USD"},
+  {"id": "A7", "question": "How is data encrypted in transit?", "answerable": true, "expected_source": "product_faq.md", "expected_contains": "TLS 1.3"},
+  {"id": "A8", "question": "Within how many hours must lost devices be reported?", "answerable": true, "expected_source": "it_security_policy.md", "expected_contains": "2 hours"},
+  {"id": "A9", "question": "How long can deleted files be restored from the trash?", "answerable": true, "expected_source": "product_faq.md", "expected_contains": "30 days"},
+  {"id": "A10", "question": "When must expense claims be submitted?", "answerable": true, "expected_source": "expense_policy.md", "expected_contains": "30 days"},
+  {"id": "U1", "question": "What is the CEO's salary?", "answerable": false},
+  {"id": "U2", "question": "What is the dress code for client meetings?", "answerable": false},
+  {"id": "U3", "question": "Which programming language is the Nimbus Sync client written in?", "answerable": false},
+  {"id": "U4", "question": "Where is the company headquarters located?", "answerable": false},
+  {"id": "U5", "question": "How much does the Enterprise plan cost per month?", "answerable": false}
+]
