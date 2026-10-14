@@ -1,4 +1,3 @@
-"""Regenerates docs/architecture.png (needs matplotlib: pip install matplotlib)."""
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
