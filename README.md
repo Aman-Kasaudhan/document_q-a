@@ -6,7 +6,7 @@ answer, the system returns **"Insufficient evidence"** instead of guessing.
 
 - Demo video: `<ADD LINK>`
 - Design note (1 page): . [docs/design_note.md](/DAI-006_Submission/1_Git_Repository/doc-qa-evidence/design_note.md) · Architecture: [docs/architecture.md](DAI-006_Submission/1_Git_Repository/doc-qa-evidence/architecture.md)
-- Test evidence: [docs/test_results.txt](docs/test_results.txt) · Eval results: [docs/eval_results.txt](docs/eval_results.txt)
+- Test evidence: [docs/test_results.txt](DAI-006_Submission/1_Git_Repository/doc-qa-evidence/docs/test_results.txt) · Eval results: [docs/eval_results.txt](DAI-006_Submission/1_Git_Repository/doc-qa-evidence/docs//eval_results.txt)
 
 ## 1. Problem statement
 
