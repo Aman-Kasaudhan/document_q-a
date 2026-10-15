@@ -1,7 +1,5 @@
 import json
-
 import pytest
-
 from src.config import PROJECT_ROOT
 from src.models import ProviderResult
 from src.providers import ProviderError
@@ -22,7 +20,7 @@ def test_eval_questions(loaded, settings, item):
         assert item["expected_contains"].lower() in ans.answer.lower()
         assert ans.primary_source.text                       # the evidence chunk is returned
     else:
-        assert ans.status == "insufficient_evidence"
+        assert ans.status=="insufficient_evidence"
         assert ans.answer is None
 
 
@@ -30,7 +28,7 @@ def test_near_miss_entity_is_refused(loaded, settings):
     """Keywords 'plan cost month' match the Pro plan, but 'Enterprise' exists nowhere."""
     ans = QAService(loaded, settings).ask("How much does the Enterprise plan cost per month?")
     assert ans.status == "insufficient_evidence"
-    assert ans.note == "unknown_entity_not_in_documents:enterprise"
+    assert ans.note=="unknown_entity_not_in_documents:enterprise"
     assert ans.top_score >= settings.min_score          # keyword coverage alone would have passed
 
 
