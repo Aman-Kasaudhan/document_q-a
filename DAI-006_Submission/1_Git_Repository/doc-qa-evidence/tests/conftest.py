@@ -1,13 +1,11 @@
 import shutil
 from pathlib import Path
-
 import pytest
-
 from src.config import PROJECT_ROOT, Settings
 from src.db import connect, init_db
 from src.ingest import ingest_directory
 
-RAW_DIR = PROJECT_ROOT / "data" / "raw"
+RAW_DIR = PROJECT_ROOT/"data"/"raw"
 
 
 @pytest.fixture
