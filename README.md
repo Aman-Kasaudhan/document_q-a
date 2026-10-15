@@ -25,7 +25,7 @@ interface; runs from a clean setup; no secrets in code; at least 3 tests and one
 
 ## 3. Architecture / data flow
 
-![Architecture diagram](docs/architecture.png)
+![Architecture diagram](DAI-006_Submission/1_Git_Repository/doc-qa-evidence/architecture.png)
 
 ## 4. Technologies
 
