@@ -5,7 +5,7 @@ Every answer shows the **source chunk** it came from. When the documents do not 
 answer, the system returns **"Insufficient evidence"** instead of guessing.
 
 - Demo video: `<ADD LINK>`
-- Design note (1 page): [docs/design_note.pdf](design_note.pdf) · [docs/design_note.md](design_note.md) · Architecture: [docs/architecture.md](architecture.md)
+- Design note (1 page): [docs/design_note.pdf](design_note.pdf) · [docs/design_note.md](design_note.md) · Architecture: [docs/architecture.md1](architecture.md)
 - Test evidence: [docs/test_results.txt](docs/test_results.txt) · Eval results: [docs/eval_results.txt](docs/eval_results.txt)
 
 ## 1. Problem statement
