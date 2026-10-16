@@ -4,9 +4,9 @@ A small document ingestion pipeline and retrieval-based Q&A application in **Pyt
 Every answer shows the **source chunk** it came from. When the documents do not support an
 answer, the system returns **"Insufficient evidence"** instead of guessing.
 
-- Demo video: `<ADD LINK>`
-- Design note (1 page): [docs/design_note.pdf](docs/design_note.pdf) · [docs/design_note.md](docs/design_note.md) · Architecture: [docs/architecture.md](docs/architecture.md)
-- Test evidence: [docs/test_results.txt](docs/test_results.txt) · Eval results: [docs/eval_results.txt](docs/eval_results.txt)
+- Demo video: `https://drive.google.com/file/d/1UKeCMCoBWA-HOd_9-NUDDROjqppymP88/view?usp=sharing`
+- Design note (1 page): . [docs/design_note.md](/DAI-006_Submission/1_Git_Repository/doc-qa-evidence/design_note.md) · Architecture: [docs/architecture.md](DAI-006_Submission/1_Git_Repository/doc-qa-evidence/architecture.md)
+- Test evidence: [docs/test_results.txt](DAI-006_Submission/1_Git_Repository/doc-qa-evidence/docs/test_results.txt) · Eval results: [docs/eval_results.txt](DAI-006_Submission/1_Git_Repository/doc-qa-evidence/docs//eval_results.txt)
 
 ## 1. Problem statement
 
@@ -25,7 +25,7 @@ interface; runs from a clean setup; no secrets in code; at least 3 tests and one
 
 ## 3. Architecture / data flow
 
-![Architecture diagram](docs/architecture.png)
+![Architecture diagram](DAI-006_Submission/1_Git_Repository/doc-qa-evidence/architecture.png)
 
 ## 4. Technologies
 
